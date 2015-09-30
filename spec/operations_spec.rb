@@ -38,8 +38,8 @@ describe "Operations" do
     it 'uses the ternary operator' do
       methods = file_contents.split("not_safe?")
       match = methods.last
-      expect(match).to include("||", "?")
+      expect(match).to include("?")
     end
   end
-  
+
 end
