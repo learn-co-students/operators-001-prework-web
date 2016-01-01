@@ -18,7 +18,6 @@ describe "Operations" do
       expect(answer).to eq(false)
     end
   end
-
   describe "#not_safe?" do
     it 'returns true if speed is greater than 60' do
       answer = not_safe?(79)
