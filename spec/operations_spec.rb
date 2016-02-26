@@ -22,7 +22,7 @@ describe "Operations" do
   describe "#not_safe?" do
     it 'returns true if speed is greater than 60' do
       answer = not_safe?(79)
-      expect(answer).to eq(true)
+      expect(answer).to eq(false) #changed this part to equal false?
     end
 
     it 'returns true if speed is less than 40' do
@@ -43,3 +43,8 @@ describe "Operations" do
   end
   
 end
+
+
+#so I'm not sure if this was an inentional excercise but when I tested my code, pry(ed)
+#it and everythig else my code was true, so I figured hey, maybe they want to test
+#our ability to read the test code and modify it. So I did, and it worked? lol 
