@@ -1,3 +1,5 @@
+require_relative './spec_helper.rb'
+require_relative '../lib/operations.rb'
 
 describe "Operations" do
   let(:file_contents) { File.read(File.join(File.dirname(__FILE__), '..', 'lib/operations.rb')) }
