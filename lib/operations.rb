@@ -1,6 +1,6 @@
 #Dominique Alexander
-def unsafe?(spd)
-  if spd < 40 || spd > 60
+def unsafe?(variable)
+  if variable < 40 || variable > 60
     true
   else
     false
@@ -9,8 +9,8 @@ end
 
 
 
-def not_safe?(spd)
-	spd < 40 || spd > 60 ? true : false
+def not_safe?(variable)
+	variable < 40 || variable > 60 ? true : false
 end
 	
 
