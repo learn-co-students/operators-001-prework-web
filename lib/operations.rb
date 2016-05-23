@@ -1,6 +1,6 @@
 #Dominique Alexander
-def unsafe?(variable)
-  if variable < 40 or variable > 60
+def unsafe?(speed)
+  if speed < 40 or speed > 60
     true
   else
     false
@@ -9,8 +9,8 @@ end
 
 
 
-def not_safe?(variable)
-	variable < 40 or variable > 60 ? true : false
+def not_safe?(speed)
+	speed < 40 or speed > 60 ? true : false
 end
 	
 
